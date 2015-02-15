@@ -39,6 +39,7 @@ public class BeatBoxFinal {
 		new BeatBoxFinal().startUp(args[0]);
 	}
 
+	// Try connect server. Then start build midi and create UI. 
 	public void startUp(String name) {
 		userName = name; 
 		// Open connection
