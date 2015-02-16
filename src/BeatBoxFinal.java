@@ -57,6 +57,7 @@ public class BeatBoxFinal {
 		buildGUI(); 
 	}
 	
+	// A layout of UI
 	public void buildGUI() {
 		theFrame = new JFrame("Cyber BeatBox"); 
 		BorderLayout layout = new BorderLayout();
