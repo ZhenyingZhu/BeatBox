@@ -64,6 +64,7 @@ public class BeatBoxFinal {
 		JPanel background = new JPanel(layout); 
 		background.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 		
+		// A list to record check result
 		checkboxList = new ArrayList<JCheckBox>(); 
 		
 		Box buttonBox = new Box(BoxLayout.Y_AXIS); 
